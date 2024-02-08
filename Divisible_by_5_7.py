@@ -1,7 +1,14 @@
-def divisible_by_5_and_7(num):
-  for i in range(num + 1):
-    if(num % 5 == 0) & (num % 7 == 0):
-      print(str(num) + ",")
+def divisible_by_5_and_7(n):
+    for num in range(n + 1):
+        if num % 5 == 0 and num % 7 == 0:
+            yield str(num)
 
-num = 100
-divisible_by_5_and_7(num)
+
+def print_divisible_numbers(n):
+    divisible_nums = divisible_by_5_and_7(n)
+    print(','.join(divisible_nums))
+
+
+# Example
+#print_divisible_numbers(100)
+
