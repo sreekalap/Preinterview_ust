@@ -12,7 +12,7 @@ import circular_queue
 def read_inputs_from_json():
     #C:\Users\sysadmin\PycharmProjects\pythonProject1\main.py
     #C:\Users\sysadmin\PycharmProjects\pythonProject1\input\data.json
-    with open(".\input\data.json") as json_file:
+    with open(".\data.json") as json_file:
         data = json.load(json_file)
     #print(data)
     return data
