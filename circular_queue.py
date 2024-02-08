@@ -1,3 +1,4 @@
+#circular queue(enqueue(only upto 5 data), dequeue, display) Program
 class CircularQueue:
     def __init__(self, max_length):
         self.queue = {}
