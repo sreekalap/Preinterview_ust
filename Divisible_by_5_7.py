@@ -1,3 +1,4 @@
+#checking divisiblity by 5 and 7 Program
 def divisible_by_5_and_7(n):
     for num in range(n + 1):
         if num % 5 == 0 and num % 7 == 0:
