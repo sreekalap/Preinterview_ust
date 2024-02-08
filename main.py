@@ -1,6 +1,6 @@
 # Main Program to run all the Programs
 import json
-import  Divisible_by_5_7
+import divisible_by_5_7
 import interleaves_2_strings
 import circular_queue
 
